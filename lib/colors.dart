@@ -8,4 +8,5 @@ class Mycolors {
   static const lightGrey = Color.fromARGB(255, 217, 217, 217);
   static const lightblue = Color.fromARGB(255, 0, 213, 255);
   static const orange = Color.fromARGB(255, 255, 202, 123);
+  static const grey = Colors.grey;
 }
