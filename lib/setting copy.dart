@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:insucount/note_page.dart';
 import 'text_styles.dart';
 import 'colors.dart';
 import 'home.dart';

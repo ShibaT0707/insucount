@@ -1,8 +1,18 @@
-import 'package:flutter/material.dart';
-import 'text_styles.dart';
-import 'start.dart';
+// main.dart
 
-void main() {
+import 'package:flutter/material.dart';
+import 'start.dart';
+import 'camera.dart'; // 追加
+
+import 'dart:async';
+
+import 'package:camera/camera.dart';
+
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  final cameras = await availableCameras();
+  FirstCameraHolder.firstCamera = cameras.first; // 設定
+
   runApp(const MyApp());
 }
 

@@ -37,6 +37,11 @@ class MyTextStyles {
     fontWeight: FontWeight.w400,
     color: Mycolors.white,
   );
+  static const xlwhiteText = TextStyle(
+    fontSize: 120,
+    fontWeight: FontWeight.w400,
+    color: Mycolors.white,
+  );
   static final barTitle = GoogleFonts.khand(
     fontSize: 35,
     fontWeight: FontWeight.w400,
@@ -45,6 +50,11 @@ class MyTextStyles {
   static const barText = TextStyle(
     fontSize: 17,
     fontWeight: FontWeight.w200,
+    color: Mycolors.black,
+  );
+  static const sblackboldText = TextStyle(
+    fontSize: 18,
+    fontWeight: FontWeight.bold,
     color: Mycolors.black,
   );
 }
