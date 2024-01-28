@@ -88,7 +88,7 @@ class _CameraAppState extends State<Camera> {
     try {
       var request = http.MultipartRequest(
         'POST',
-        Uri.parse('http://127.0.0.1:5000/predict'),
+        Uri.parse('http://192.168.10.7:5000/predict'),
       );
 
       var multipartFile = http.MultipartFile.fromBytes(
